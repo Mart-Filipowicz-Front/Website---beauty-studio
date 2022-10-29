@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Studio</title>
+    <meta name="keywords" content="manicure, pedicure, masaż, masaże, zabiegi, zabieg, twarz, ciało">
+    <meta name="description" content="Beauty Studio to miejsce w którym wykonasz manicure i pedicure, zrelaksujesz się podczas masażu i skorzystasz z zabiegów na twarz i ciało!">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;700&family=Inspiration&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://kit.fontawesome.com/cd4426d543.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <button class="burger-btn">
+        <div class="burger-btn__box">
+            <div class="burger-btn__bars"></div>
+        </div>
+    </button>
+
+
+    <nav class="nav">
+
+        <div class="nav__items ">
+            <a href="#packet" class="nav__item">Pakiety</a>
+            <a href="#treatments" class="nav__item">Zabiegi</a>
+            <a href="#reviews" class="nav__item">Opinie</a>
+            <a href="#contact" class="nav__item">Kontakt</a>
+        </div>
+    </nav>
+
+
+    <header class="header section">
+        <h1 class="header__heading">Beauty Studio</h1>
+        <p class="header__text">W trosce o Twoje piękno</p>
+        <a href="#treatments" class="header__btn btn-special-animation">Poznaj ofertę</a>
+        <div class="white-block white-block-left"></div>
+
+    </header>
+
+    <main class="main">
+        <section class="about section-padding section white-section">
+
+            <div class="wrapper">
+                <h2 class="section-heading">Poznaj nas</h2>
+
+                <div class="about__box">
+                    <div class="about__box-img">
+                        <img class="about__img" src="/img/about1.jpg"
+                            alt="Pomieszczenie zabiegów spa, w którym znajduje się komoda, dwa łóżka">
+                    </div>
+                    <div class="about__box-text">
+                        <h3 class="about__title">Profesjonalne studio</h3>
+                        <p class="about__text">Na nasze studio składają się profesjonalne sale przygotowane  do zabiegów oraz przytulne pomieszczenia, gdzie wykonasz manicure, pedicure i inne. Korzystamy z profesjonalnych i renomowanych urządzeń oraz produktów, które posiadają certyfikaty.</p>
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__box-img about__box-img--right">
+                        <img class="about__img" src="/img/about2.jpg"
+                            alt="Pomieszczenie zabiegów spa z fotelem, komodą i lustrem oraz łóżkiem.">
+                    </div>
+                    <div class="about__box-text about__box-text--right">
+                        <h3 class="about__title">Wyspecjalizowana kadra</h3>
+                        <p class="about__text">W naszym studio pracują osoby, które mają ogromną wiedzę i doświadczenie w kwestii kosmetologii. Nasi specjaliści są niezmiernie uprzejmi, uśmiechnięci i sprawią, że każdy klient opuści nasze studio zadowolony. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-img section">
+            <div class="white-block white-block-left"></div>
+            <div class=" white-block white-block-right"></div>
+            <p class="hero-img__title">Beauty Studio</p>
+            <hr>
+            <p class="hero-img__text">Czas na Twój relaks, zdrowie, piękno</p>
+            <hr>
+        </section>
+
+        <section class="packet section-padding section white-section" id="packet">
+
+            <div class="wrapper">
+                <h2 class="section-heading">Pakiety zabiegów</h2>
+
+                <div class="packet__cards">
+
+                    <div class="packet__card" onclick="void(0)">
+                        <div class="packet__card-img packet__card-img--first">
+                            <h3 class="packet__card-img--title">Relax</h3>
+                            <p class="packet__card-img--info">
+                                <i class="fas fa-angle-double-right"></i>Więcej informacji
+                            </p>
+                        </div>
+                        <div class="packet__card-info">
+                            <h3 class="packet__card-info-title">Relax</h3>
+                            <ul class="packet__card-info-list">
+                                <li class="packet__card-info-list-item">Masaż ciała</li>
+                                <li class="packet__card-info-list-item">Maska na twarz</li>
+                                <li class="packet__card-info-list-item">Maska na stopy</li>
+                                <li class="packet__card-info-list-item">Zestaw olejków</li>
+                                <li class="packet__card-info-list-item">Sesja sauny</li>
+                            </ul>
+                            <button class="packet__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="packet__card" onclick="void(0)">
+                        <div class="packet__card-img packet__card-img--second">
+                            <h3 class="packet__card-img--title">Beauty</h3>
+                            <p class="packet__card-img--info">
+                                <i class="fas fa-angle-double-right"></i>Więcej informacji
+                            </p>
+                        </div>
+                        <div class="packet__card-info">
+                            <h3 class="packet__card-info-title">Beauty</h3>
+                            <ul class="packet__card-info-list">
+                                <li class="packet__card-info-list-item">Manicure</li>
+                                <li class="packet__card-info-list-item">Pedicure</li>
+                                <li class="packet__card-info-list-item">Maska na dłonie</li>
+                                <li class="packet__card-info-list-item">Masaż stóp</li>
+                                <li class="packet__card-info-list-item">Zestaw kremów</li>
+                            </ul>
+                            <button class="packet__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="packet__card" onclick="void(0)">
+                        <div class="packet__card-img packet__card-img--third">
+                            <h3 class="packet__card-img--title">Care</h3>
+                            <p class="packet__card-img--info">
+                                <i class="fas fa-angle-double-right"></i>Więcej informacji
+                            </p>
+                        </div>
+                        <div class="packet__card-info">
+                            <h3 class="packet__card-info-title">Care</h3>
+                            <ul class="packet__card-info-list">
+                                <li class="packet__card-info-list-item">Diagnoza</li>
+                                <li class="packet__card-info-list-item">Konsultacja</li>
+                                <li class="packet__card-info-list-item">Zabieg na twarz</li>
+                                <li class="packet__card-info-list-item">Masaż twarzy</li>
+                                <li class="packet__card-info-list-item">Zestaw kosmetyków</li>
+                            </ul>
+                            <button class="packet__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="treatments section-padding section" id="treatments">
+            <div class="white-block white-block-right"></div>
+            <div class="white-block white-block-left"></div>
+
+            <h2 class="section-heading">Zabiegi</h2>
+            <div class="wrapper">
+                <div class="treatments__box">
+
+                    <div class="treatments__option">
+                        <img src="img/treatment1.jpg"
+                            alt="Dwie masażystki masujące dwie osoby w studio zabiegowym"
+                            class="treatments__option-img">
+                        <div class="treatments__option-info">
+                            <h3 class="treatments__option-heading">Masaże</h3>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestiae amet expedita culpa quasi sequi architecto cupiditate doloribus ab explicabo
+                                dolore.</p>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <button class="treatments__option-btn btn-special-animation">Wybierz</button>
+
+                        </div>
+                    </div>
+                    <div class="treatments__option">
+                        <img src="img/treatment2.jpg" alt="Kosmetyczka wykonująca manicure klientce"
+                            class="treatments__option-img treatments__option-img--right">
+                        <div class="treatments__option-info">
+                            <h3 class="treatments__option-heading">Manicure</h3>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestiae amet expedita culpa quasi sequi architecto cupiditate doloribus ab explicabo
+                                dolore.</p>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+
+                            <button class="treatments__option-btn btn-special-animation">Wybierz</button>
+
+                        </div>
+                    </div>
+                    <div class="treatments__option">
+                        <img src="img/treatment3.jpg" alt="Depilacja wykonywana przez specjalistę na udzie kobiety"
+                            class="treatments__option-img">
+                        <div class="treatments__option-info">
+                            <h3 class="treatments__option-heading">Zabiegi na ciało</h3>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestiae amet expedita culpa quasi sequi architecto cupiditate doloribus ab explicabo
+                                dolore.</p>
+                            <p class="treatments__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+
+                            <button class="treatments__option-btn btn-special-animation">Wybierz</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="reviews" class="reviews section section-padding white-section">
+            <h2 class="section-heading">Opinie</h2>
+            <div class="wrapper">
+
+                <div class="reviews__boxes">
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/reviewperson1.jpg" alt="Katarzyna Polak">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nostrum libero.
+                                Voluptates, voluptas alias assumenda illum harum sit atque rem.
+                            </p>
+                            <strong>Katarzyna Polak</strong>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/reviewperson2.jpg" alt="Anna Kowalska">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nostrum libero.
+                                Voluptates, voluptas alias assumenda illum harum sit atque rem.
+                            </p>
+                            <strong>Anna Kowalska</strong>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/reviewperson3.jpg" alt="Jan Nowak">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nostrum libero.
+                                Voluptates, voluptas alias assumenda illum harum sit atque rem.
+                            </p>
+                            <strong>Jan Nowak</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class=" contact section section-padding white-section" id="contact">
+            <div class="white-block white-block-left"></div>
+            <div class=" white-block white-block-right"></div>
+
+            <h2 class="section-heading">Kontakt</h2>
+
+            <div class="wrapper">
+                <form class="contact__form">
+                    <div class="contact__form-top">
+                        <label for="name" class="contact__form-label">Imię i nazwisko: </label>
+                        <input type="text" class="contact__form-input" id="name">
+
+                        <label for="email" class="contact__form-label">Adres e-mail: </label>
+                        <input type="text" class="contact__form-input" id="email">
+                    </div>
+
+                    <label for="msg" class="contact__form-label">Wiadomość:</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                    <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__boxes">
+                    <div class="footer__box">
+                        <h3 class="footer__box-title">Beauty Studio</h3>
+                        <p>Beauty Studio to miejsce w którym wykonasz manicure i pedicure, zrelaksujesz się podczas masażu i skorzystasz z zabiegów na twarz i ciało!
+                        </p>
+                        <div class="footer__box-social">
+                            <a href="#" class="footer__box-link"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#" class="footer__box-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="footer__box-link"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer__box footer__box-desktop">
+                        <h3 class="footer__box-title">Najczęściej wybierane pakiety</h3>
+                        <ul class="footer__box-list">
+                            <li class="footer__box-list-item"><a href="#">Relax</a></li>
+                            <li class="footer__box-list-item"><a href="#">Beauty</a></li>
+                            <li class="footer__box-list-item"><a href="#">Care</a></li>
+                            <li class="footer__box-list-item"><a href="#">Pozostałe zabiegi</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__box footer__box-desktop">
+                        <h3 class="footer__box-title">O nas</h3>
+                        <ul class="footer__box-list">
+                            <li class="footer__box-list-item"><a href="#">Specjaliści</a></li>
+                            <li class="footer__box-list-item"><a href="#">Urządzenia</a></li>
+                            <li class="footer__box-list-item"><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+            <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Beauty Studio</p>
+        </footer>
+    </main>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
