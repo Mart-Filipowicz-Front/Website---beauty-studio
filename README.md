@@ -44,4 +44,4 @@ Project doesn't require any special dependencies. To open whole website, there i
 
 
 ## Contact
-Created by me - Martyna Filipowicz - feel free to contact me!
+Created by me - Martyna - feel free to contact me!
