@@ -33,7 +33,7 @@ Project is a website for some beauty studio, presents basic information about a 
 
 
 ## Setup
-Project doesn't require any special dependencies. To open whole website, there is a need to have all the files, while not changing their contains, in one folder or use click this link: https://mart-filipowicz-front.github.io/Website---beauty-studio/ .
+Project doesn't require any special dependencies. To open whole website, there is a need to have all the files, while not changing their contains, in one folder or use click this link: https://martinafm.github.io/Website---beauty-studio/ .
 
 
 
